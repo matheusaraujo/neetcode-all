@@ -26,19 +26,17 @@ class Solution:
 
         neighbors = self.createNeighbors(wordList)
 
-        visited, queue, result = set([beginWord]), deque([beginWord]), 1
+        visited, queue = set([beginWord]), deque([(beginWord, 0)])
 
         while queue:
-            for i in range(len(queue)):
-                word = queue.popleft()
-                if word == endWord: return result
+            word, distance = queue.popleft()
+            if word == endWord: return distance + 1
 
-                for pattern in self.getWordPatterns(word):
-                    for newWord in neighbors[pattern]:
-                        if newWord not in visited:
-                            visited.add(newWord)
-                            queue.append(newWord)
-            result += 1
+            for pattern in self.getWordPatterns(word):
+                for newWord in neighbors[pattern]:
+                    if newWord not in visited:
+                        visited.add(newWord)
+                        queue.append((newWord, distance + 1))
 
         return 0
 
