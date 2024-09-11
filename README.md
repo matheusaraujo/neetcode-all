@@ -14,4 +14,5 @@ I use the LeetCode extension for Visual Studio Code to streamline solving and su
 
 - [VSCode LeetCode Extension](https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode)
 
-> [!NOTE] > **Note:** This is a continuation of my earlier work from [neetcode-150](https://github.com/matheusaraujo/neetcode-150/).
+> [!NOTE]
+> This is a continuation of my earlier work from [neetcode-150](https://github.com/matheusaraujo/neetcode-150/).
