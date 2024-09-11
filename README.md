@@ -1,14 +1,17 @@
-# neetcode-150 🤓 💻
+# neetcode-all 🤓 💻
 
-This repository contains my solutions to the NeetCode 150 🚀 algorithm practice problems, a beginner friendly and comprehensive list, alternatively for Blind 75 🧠
+This repository showcases my solutions to algorithm practice problems from NeetCode 🚀. It serves as a personal journey of honing problem-solving skills and mastering common algorithms.
 
-### reference
+### NeetCode Practice
 
-https://neetcode.io/practice
+Explore the problems here:
 
-### tools
+- [NeetCode Practice](https://neetcode.io/practice)
 
-https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode
+### Tools Used
 
-> [!NOTE]
-> Second part of https://github.com/matheusaraujo/blind-75/
+I use the LeetCode extension for Visual Studio Code to streamline solving and submitting problems:
+
+- [VSCode LeetCode Extension](https://marketplace.visualstudio.com/items?itemName=LeetCode.vscode-leetcode)
+
+> [!NOTE] > **Note:** This is a continuation of my earlier work from [neetcode-150](https://github.com/matheusaraujo/neetcode-150/).
